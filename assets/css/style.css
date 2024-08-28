@@ -1,0 +1,38 @@
+/* Ejercicio #1 */
+img {
+  width: 700px;
+  cursor: pointer;
+  /* transition: border red 2px; */
+  border: 2px red;
+}
+
+/* Ejercicio #2 */
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 10px;
+}
+.img-stiker {
+  width: 200px;
+  height: 200px;
+}
+.sticker input {
+  width: 80px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  margin: 20px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
