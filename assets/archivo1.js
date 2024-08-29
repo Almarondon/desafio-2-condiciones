@@ -11,13 +11,3 @@ function changeBorderColor() {
     imagen.style.border = imgStyleBorder;
   }
 }
-
-/* Ejercicio #2 */
-const stiker1 = document.getElementById("stiker1");
-stiker1.addEventListener("keyup", setQtyStiker1);
-
-let qtyStiker1 = 0;
-
-function setQtyStiker1() {
-  qtyStiker1 = Number(stiker1.value);
-}
