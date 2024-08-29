@@ -13,6 +13,8 @@ function verify() {
   const qtyStiker3 = Number(stiker3.value);
   const totalQty = qtyStiker1 + qtyStiker2 + qtyStiker3;
   if (totalQty > 10) {
+    message.innerHTML = "No puedes llevar tantos stikers";
   } else {
+    message.innerHTML = `Tienes ${totalQty} stickers`;
   }
 }
