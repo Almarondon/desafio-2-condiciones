@@ -26,6 +26,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 .btn {
   margin: 20px;
@@ -35,4 +36,36 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Ejercicio #3 */
+.parte3 {
+  height: 200px;
+  border: 1px solid black;
+  width: 400px;
+  padding: 30px;
+}
+h2 {
+  text-align: center;
+}
+.container-select {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.container-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.btn {
+  margin: 40px;
+}
+.selects {
+  margin: 0;
+  padding: 0;
+}
+.oculto {
+  display: none;
 }
